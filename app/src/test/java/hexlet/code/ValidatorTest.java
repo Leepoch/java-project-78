@@ -30,4 +30,29 @@ public class ValidatorTest {
         var schema1 = v.string();
         assertTrue(schema1.minLength(10).minLength(4).isValid("Hexlet"));
     }
+
+    @Test
+    public void validationNumberTest() {
+        var v = new Validator();
+
+        var schema = v.number();
+
+        assertTrue(schema.isValid(5));
+
+        assertTrue(schema.isValid(null));
+        assertTrue(schema.positive().isValid(null));
+
+        schema.required();
+
+        assertFalse(schema.isValid(null));
+        assertTrue(schema.isValid(10));
+        assertFalse(schema.isValid(-10));
+        assertFalse(schema.isValid(0));
+
+        schema.range(5, 10);
+
+        assertTrue(schema.isValid(5));
+        assertTrue(schema.isValid(10));
+        assertFalse(schema.isValid(4));
+    }
 }

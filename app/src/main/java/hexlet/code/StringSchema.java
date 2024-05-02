@@ -3,7 +3,7 @@ package hexlet.code;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StringSchema {
+public class StringSchema extends BaseSchema<String>{
     private List<String> validationMethodsNames = new ArrayList<>();
     private Integer argMinLength;
     private String argContains;
