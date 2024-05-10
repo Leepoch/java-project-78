@@ -1,53 +1,29 @@
 package hexlet.code;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Objects;
 
-public class NumberSchema {
-    private List<String> validationMethodsNames = new ArrayList<>();
-    private Integer minRange;
-    private Integer maxRange;
-
+public class NumberSchema extends BaseSchema<Integer> {
     public NumberSchema required() {
-        validationMethodsNames.add("required");
+//        addCheck(Objects::isNull);
+        required = true;
         return this;
     }
 
     public NumberSchema positive() {
-        validationMethodsNames.add("positive");
+        addCheck("positive", number -> {
+            if (number == null && required) {
+                return false;
+            } else if (number == null && !required) {
+                return true;
+            } else {
+                return number > 0;
+            }
+        });
         return this;
     }
 
     public NumberSchema range(Integer min, Integer max) {
-        validationMethodsNames.add("range");
-        minRange = min;
-        maxRange = max;
+        addCheck("range", number -> number >= min && number <= max);
         return this;
-    }
-
-    public Boolean isValid(Integer number) {
-        for (var methodName : validationMethodsNames) {
-            switch (methodName) {
-                case "required":
-                    if (number == null) {
-                        return false;
-                    }
-                    break;
-                case "positive":
-                    if (number == null && validationMethodsNames.contains("required")) {
-                        return false;
-                    } else if (number == null && !validationMethodsNames.contains("required")) {
-                        return true;
-                    } else if (number <= 0) {
-                        return false;
-                    }
-                    break;
-                case "range":
-                    if (number < minRange || number > maxRange) {
-                        return false;
-                    }
-            }
-        }
-        return true;
     }
 }
