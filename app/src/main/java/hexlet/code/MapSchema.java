@@ -27,8 +27,8 @@ public class MapSchema extends BaseSchema<Map<String, String>> {
             Map<String, String> validatedMap,
             String valueName,
             BaseSchema<String> validationObject
-            ) {
-       var validatedValue = validatedMap.get(valueName);
-       return validationObject.isValid(validatedValue);
+    ) {
+        var validatedValue = validatedMap.get(valueName);
+        return validationObject.isValid(validatedValue);
     }
 }

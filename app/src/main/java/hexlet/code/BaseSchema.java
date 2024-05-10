@@ -1,9 +1,10 @@
 package hexlet.code;
 
-import java.util.*;
+import java.util.Map;
+import java.util.HashMap;
 import java.util.function.Predicate;
 
-public class BaseSchema<DataType>{
+public class BaseSchema<DataType> {
     private Map<String, Predicate<DataType>> checksMap = new HashMap<>();
     public Boolean required = false;
 

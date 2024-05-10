@@ -1,7 +1,5 @@
 package hexlet.code;
 
-import java.util.Objects;
-
 public class NumberSchema extends BaseSchema<Integer> {
     public NumberSchema required() {
 //        addCheck(Objects::isNull);
