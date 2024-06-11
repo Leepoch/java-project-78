@@ -1,25 +1,33 @@
-setup:
-    gradle wrapper --gradle-version 8.5
+.DEFAULT_GOAL := build-run
 
 clean:
-    ./gradlew clean
+	./gradlew clean
 
 build:
-    ./gradlew clean build
-
-lint:
-    ./gradlew checkstyleMain checkstyleTest
-
-test:
-    ./gradlew test
-
-report:
-    ./gradlew jacocoTestReport
+	./gradlew clean build
 
 install:
-    ./gradlew install
+	./gradlew clean install
 
-check-updates:
-    ./gradlew dependencyUpdates
+run-dist:
+	./build/install/java-package/bin/java-package
+
+run:
+	./gradlew run
+
+test:
+	./gradlew test
+
+report:
+	./gradlew jacocoTestReport
+
+lint:
+	./gradlew checkstyleMain checkstyleTest
+
+update-deps:
+	./gradlew useLatestVersions
+
+
+build-run: build run
 
 .PHONY: build
