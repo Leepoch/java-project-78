@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21858a9b-a184-4cc5-8ce4-b111434a34d5" name="Changes" comment="fix build.gradle" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/app">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2flwFWDQux6iN8eVv25geHUScLP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.ValidatorTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/daniel/java-project-78"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-78a6f59c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21858a9b-a184-4cc5-8ce4-b111434a34d5" name="Changes" comment="" />
+      <created>1714388869088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714388869088</updated>
+    </task>
+    <task id="LOCAL-00001" summary="create project">
+      <option name="closed" value="true" />
+      <created>1714395144835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714395144835</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add StringSchema &amp; Validator clases">
+      <option name="closed" value="true" />
+      <created>1714403148924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714403148924</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add logic StringSchema">
+      <option name="closed" value="true" />
+      <created>1714647311896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714647311896</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add logic NumberSchema">
+      <option name="closed" value="true" />
+      <created>1714650306452</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714650306452</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add map schema">
+      <option name="closed" value="true" />
+      <created>1715343508935</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715343508935</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add complex map validation">
+      <option name="closed" value="true" />
+      <created>1715348114629</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715348114629</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update readme">
+      <option name="closed" value="true" />
+      <created>1715349555276</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715349555276</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix checkstyle errors">
+      <option name="closed" value="true" />
+      <created>1715350165007</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715350165007</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix checkstyle errors 2">
+      <option name="closed" value="true" />
+      <created>1715350268317</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715350268317</updated>
+    </task>
+    <task id="LOCAL-00010" summary="change gradle.yml on java.yml">
+      <option name="closed" value="true" />
+      <created>1715597296023</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715597296023</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add makefile in root">
+      <option name="closed" value="true" />
+      <created>1715597760634</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715597760634</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update makefile">
+      <option name="closed" value="true" />
+      <created>1715606922624</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715606922624</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update makefile in app">
+      <option name="closed" value="true" />
+      <created>1715680018326</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715680018326</updated>
+    </task>
+    <task id="LOCAL-00014" summary="deleted comments">
+      <option name="closed" value="true" />
+      <created>1718106054349</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718106054349</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ignore .idea">
+      <option name="closed" value="true" />
+      <created>1718106791601</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718106791601</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update makefile">
+      <option name="closed" value="true" />
+      <created>1718106957840</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1718106957840</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update makefile">
+      <option name="closed" value="true" />
+      <created>1718107342577</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718107342577</updated>
+    </task>
+    <task id="LOCAL-00018" summary="deleted index">
+      <option name="closed" value="true" />
+      <created>1718363443408</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718363443408</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix build.gradle">
+      <option name="closed" value="true" />
+      <created>1718363662021</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718363662021</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create project" />
+    <MESSAGE value="add StringSchema &amp; Validator clases" />
+    <MESSAGE value="add logic StringSchema" />
+    <MESSAGE value="add logic NumberSchema" />
+    <MESSAGE value="add map schema" />
+    <MESSAGE value="add complex map validation" />
+    <MESSAGE value="update readme" />
+    <MESSAGE value="fix checkstyle errors" />
+    <MESSAGE value="fix checkstyle errors 2" />
+    <MESSAGE value="change gradle.yml on java.yml" />
+    <MESSAGE value="add makefile in root" />
+    <MESSAGE value="update makefile in app" />
+    <MESSAGE value="deleted comments" />
+    <MESSAGE value="ignore .idea" />
+    <MESSAGE value="update makefile" />
+    <MESSAGE value="deleted index" />
+    <MESSAGE value="fix build.gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix build.gradle" />
+  </component>
+</project>
