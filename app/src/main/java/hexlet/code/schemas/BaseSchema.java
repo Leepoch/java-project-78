@@ -6,13 +6,13 @@ import java.util.function.Predicate;
 
 public class BaseSchema<DataType> {
     private Map<String, Predicate<DataType>> checksMap = new HashMap<>();
-    public Boolean required = false;
+    protected Boolean required = false;
 
-    public void addCheck(String checkName, Predicate<DataType> check) {
+    public final void addCheck(String checkName, Predicate<DataType> check) {
         checksMap.put(checkName, check);
     }
 
-    public Boolean isValid(DataType data) {
+    public final Boolean isValid(DataType data) {
         if (required && (data == null || data.equals(""))) {
             return false;
         }
